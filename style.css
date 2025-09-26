@@ -1,0 +1,66 @@
+/* Table container */
+.objetos{
+	font-family: Andale Mono, AndaleMono, monospace;
+	font-weight: 600;
+	margin: 1%;
+}
+
+body, .botones{
+		font-family: Andale Mono, AndaleMono, monospace;
+	margin: 1%;
+}
+
+#todo{
+	margin-left: auto;
+	margin-right: 0;
+	max-width: 50%;
+	padding: 1%;
+}
+
+#itemsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+	font-family: Andale Mono, AndaleMono, monospace;
+}
+
+/* Table headers */
+#itemsTable th {
+  background-color: #f4f4f4;
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Table cells */
+#itemsTable td {
+  padding: 12px;
+  vertical-align: middle;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Alternate row background */
+#itemsTable tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Image styling */
+#itemsTable img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+#itemsTable img:hover {
+  transform: scale(1.05);
+}
+
+/* Description column */
+#itemsTable td:nth-child(3) {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

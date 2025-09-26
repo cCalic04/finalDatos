@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Anticuario de Fantasmas</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js" defer></script>
+</head>
+	
+	
+<body>
+	<div id="todo">
+		
+
+			<div id="opciones">
+			 <label for="objeto">Tipo de objeto:</label>
+
+				<select name="objeto" class="objetos">
+				  <option value="chapa">Chapas</option>
+				  <option value="envoltorio">Envoltorios</option>
+				  <option value="recibo">Recibos</option>
+				  <option value="">Cualquiera</option>
+
+				</select> 
+				
+				<label for="objeto">Sitio de adquisición:</label>
+
+				<select name="objeto" class="objetos">
+				  <option value="Suba">Suba</option>
+				  <option value="Centro">Centro de Bogotá</option>
+				  <option value="Fontibón">Fontibón</option>
+				<option value="Chía">Chía</option>
+				<option value="Teusaquillo">Teusaquillo</option>
+				<option value="Chapinero">Chapinero</option>
+				<option value="Engativá">Engativá</option>
+				 <option value="">Cualquiera</option>
+
+				</select> 
+				
+		<label for="objeto">Con quién:</label>
+
+				<select name="objeto" class="objetos">
+				  <option value="Juliana">Juliana</option>
+				  <option value="Amigos">Amigos</option>
+				  <option value="solo">solo</option>
+				  <option value="">Cualquiera</option>
+
+				</select> 
+
+		<label for="objeto">Experiencia emocional:</label>
+
+				<select name="objeto" class="objetos">
+				  <option value="Triste">Triste</option>
+				  <option value="Feliz">Feliz</option>
+				  <option value="Mundana">Mundana</option>
+				  <option value="Afanado">Afanado</option>
+				  <option value="Contrariado">Contrariado</option>
+				  <option value="">Cualquiera</option>
+
+				</select> 
+				
+			</div>
+		
+			<div id="items">
+  <button class="botones" type="button" onclick="mostrarItems()">Visualizar Resultados</button>
+  <table id="itemsTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Imagen</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+		
+	</div>
+
+</body>
+</html>
